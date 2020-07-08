@@ -110,6 +110,6 @@ str(df)
 newdf <- df %>% 
   select_if(is.factor)
 dim(df)
-chaiddf3 <- chaid(Q4 ~ ., data = newdf)
+chaiddf3 <- chaid(Q1 ~ ., data = newdf)
 plot(chaiddf3)
 ```
