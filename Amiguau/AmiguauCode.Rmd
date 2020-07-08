@@ -1,0 +1,115 @@
+---
+title: "Amiguau"
+author: "Vivian Hernandez"
+date: "6/21/2020"
+output:
+  word_document: default
+  pdf_document: default
+  html_document: default
+---
+
+Setup
+```{r setup, include=FALSE}
+install.packages("partykit", repos = "http://cran.us.r-project.org")
+install.packages("CHAID", repos="http://R-Forge.R-project.org")
+require(rsample) # for dataset and splitting also loads broom and tidyr
+require(dplyr)
+require(ggplot2)
+theme_set(theme_bw()) # set theme
+require(CHAID)
+require(purrr)
+require(caret)
+
+```
+Set up data
+```{r}
+pre <- read.csv("~/Documents/DSC680/Projects/Amiguau/pre.csv")
+post <- read.csv("~/Documents/DSC680/Projects/Amiguau/post.csv")
+```
+
+look at data
+```{r}
+str(pre)
+```
+```{r}
+
+str(post)
+
+```
+
+
+Make all into factors
+```{r}
+pre$Age=as.factor(pre$Age)
+pre$Year=as.factor(pre$Year)
+post$Age=as.factor(post$Age)
+post$Year=as.factor(post$Year)
+```
+
+Check Structure
+```{r}
+str(pre)
+```
+
+```{r}
+str(post)
+```
+
+```{r}
+newpre <- pre %>% 
+  select_if(is.factor)
+dim(pre)
+```
+
+```{r}
+# demonstrate a full model using chaid with defaults
+chaiddf1 <- chaid(Q1 ~ ., data = newpre)
+print(chaiddf1)
+
+```
+
+```{r}
+plot(chaiddf1)
+```
+
+```{r}
+newpost <- post %>% 
+  select_if(is.factor)
+dim(post)
+```
+
+```{r}
+# demonstrate a full model using chaid with defaults
+chaiddf2 <- chaid(Q1 ~ ., data = newpost)
+print(chaiddf2)
+
+```
+
+```{r}
+plot(chaiddf2)
+```
+
+```{r}
+chisq.test(newpost$Q4, newpost$Q3)
+```
+
+```{r}
+
+df <- read.csv("~/Documents/DSC680/Projects/Amiguau/data.csv")
+
+
+str(df)
+
+
+df$Age=as.factor(df$Age)
+df$Year=as.factor(df$Year)
+
+
+str(df)
+
+newdf <- df %>% 
+  select_if(is.factor)
+dim(df)
+chaiddf3 <- chaid(Q4 ~ ., data = newdf)
+plot(chaiddf3)
+```

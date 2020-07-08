@@ -1,0 +1,93 @@
+Location,Year,Age,Suvey,Q1,Q2,Q3,Q4,Q5,Q6,Q7
+San Juan,2017,11,Post,Domestic;,Reject;,Yes;,Domestic;,No;,Yes;,Yes;
+San Juan,2017,10,Post,Domestic;,Accept;,Yes;,Domestic;Wild;,No;,Yes;,Yes;
+San Juan,2017,10,Post,Domestic;,Reject;,No;,Domestic;Wild;,No;,Yes;,Yes;
+San Juan,2017,11,Post,Domestic;,Accept;Reject;,Yes;,Domestic;,No;,No;,Yes;
+San Juan,2017,10,Post,Domestic;,Reject;,Yes;,Domestic;,No;,Yes;,Yes;
+San Juan,2017,10,Post,Domestic;,Reject;,No;,Domestic;,No;,Yes;,Yes;
+San Juan,2017,11,Post,Domestic;,Reject;,No;,Domestic;,No;,Yes;,Yes;
+San Juan,2017,11,Post,Domestic;,Accept;Reject;,Yes;,Domestic;,No;,Yes;,Yes;
+San Juan,2017,11,Post,Domestic;,Reject;,Yes;,Domestic;Wild;,No;,Yes;,No;
+San Juan,2017,14,Post,Domestic;,Reject;,No;,Domestic;,No;,Yes;,Yes;
+San Juan,2017,10,Post,Domestic;,Reject;,Yes;,Domestic;,No;,Yes;,Yes;
+San Juan,2017,12,Post,Domestic;Wild;,Reject;,No;,Domestic;,Yes;No;,No;,Yes;
+San Juan,2018,10,Post,Domestic;,Reject;,No;,Domestic;Wild;,No;,Yes;,Yes;
+San Juan,2018,10,Post,Domestic;,Reject;,Yes;,Domestic;,No;,Yes;,Yes;
+San Juan,2018,11,Post,,,,,,,
+San Juan,2018,10,Post,Wild;,Reject;,Yes;,Domestic;,No;,Yes;,Yes;
+San Juan,2018,10,Post,Domestic;Wild;,Reject;,Yes;,Domestic;,No;,Yes;,Yes;
+San Juan,2018,10,Post,Domestic;,Reject;,No;,Domestic;,No;,Yes;,Yes;
+San Juan,2018,10,Post,Domestic;,Reject;,Yes;,Domestic;,No;,Yes;,Yes;
+San Juan,2018,9,Post,Domestic;,Reject;,Yes;,Domestic;,No;,Yes;,Yes;
+San Juan,2018,9,Post,,,,,,,
+San Juan,2018,10,Post,,,,,,,
+San Juan,2018,9,Post,Domestic;,Reject;,Yes;,Domestic;,No;,Yes;,Yes;
+San Juan,2018,10,Post,Domestic;,Reject;,Yes;,Domestic;,No;,Yes;,Yes;
+Luruaco,2018,11,Post,Domestic;,Reject;,No;,Domestic;,No;,No;,Yes;
+Luruaco,2018,9,Post,Domestic;,Reject;,No;,Domestic;,No;,Yes;,Yes;
+Luruaco,2018,12,Post,Domestic;,Reject;,Yes;,Domestic;,No;,Yes;,Yes;
+Luruaco,2018,9,Post,Domestic;,Reject;,No;,Domestic;,No;,No;,Yes;
+Luruaco,2018,10,Post,Domestic;,Reject;,No;,Domestic;,No;,No;,Yes;
+Luruaco,2018,9,Post,Domestic;,Reject;,No;,Domestic;,No;,Yes;,Yes;
+Luruaco,2018,12,Post,Domestic;,Reject;,No;,Domestic;,No;,Yes;,Yes;
+Luruaco,2018,9,Post,Domestic;,Reject;,No;,Domestic;,No;,Yes;,Yes;
+Luruaco,2018,10,Post,Domestic;,Reject;,Yes;,Domestic;,No;,No;,Yes;
+Luruaco,2018,10,Post,Domestic;,Reject;,No;,Domestic;,No;,Yes;,No;
+Luruaco,2018,10,Post,Domestic;,Reject;,Yes;,Domestic;,No;,No;,Yes;
+Santa Catalina,2017,10,Post,Domestic;Unknown;,Accept;,No;,Domestic;Wild;,No;,No;,Yes;
+Santa Catalina,2017,10,Post,Domestic;,Reject;,Yes;,Domestic;,No;,No;,No;
+Santa Catalina,2017,11,Post,Domestic;Wild;,Accept;,Yes;,Domestic;,No;,No;,No;
+Santa Catalina,2017,9,Post,Domestic;,Accept;,Yes;,Domestic;,No;,No;,No;
+Santa Catalina,2017,10,Post,Domestic;,Reject;,No;,Domestic;,No;,Yes;,Yes;
+Santa Catalina,2017,11,Post,Domestic;,,Yes;,Domestic;,No;,No;,Yes;
+Santa Catalina,2017,10,Post,Domestic;,Accept;,No;,Domestic;,No;,No;,No;
+Santa Catalina,2017,9,Post,Domestic;,Reject;,No;,Domestic;,No;,No;,No;
+Santa Catalina,2017,9,Post,Domestic;,Reject;,Yes;,Domestic;Unknown;,No;,No;,Yes;
+Santa Catalina,2017,11,Post,Domestic;,Reject;,No;,Domestic;,No;,Yes;,Yes;
+Santa Catalina,2017,13,Post,Domestic;,Reject;,No;,Domestic;,No;,No;,Yes;
+San Juan,2017,11,Pre,Domestic;,Accept;,Yes;,Domestic;Wild;,Yes;,No;,No;
+San Juan,2017,10,Pre,Domestic;Wild;,Accept;,Yes;,Domestic;Wild;,Yes;,Yes;,No;
+San Juan,2017,10,Pre,Domestic;,Reject;,No;,Domestic;,No;,No;,No;
+San Juan,2017,11,Pre,Domestic;,Accept;,No;,Domestic;,No;,Yes;,Yes;
+San Juan,2017,10,Pre,Domestic;,Reject;,Yes;,Domestic;,No;,Yes;,Yes;
+San Juan,2017,10,Pre,Domestic;,Reject;,No;,Domestic;,No;,Yes;,Yes;
+San Juan,2017,11,Pre,Domestic;,Accept;,No;,Domestic;Wild;,No;,No;,No;
+San Juan,2017,11,Pre,Domestic;,Accept;,Yes;,Domestic;,No;,Yes;,Yes;
+San Juan,2017,11,Pre,Domestic;,Reject;,Yes;,Domestic;,No;,No;,No;
+San Juan,2017,14,Pre,Domestic;,Reject;,No;,Domestic;,No;,Yes;,Yes;
+San Juan,2017,10,Pre,Domestic;,Reject;,Yes;,Domestic;,No;,Yes;,Yes;
+San Juan,2017,12,Pre,,,,,,,
+Luruaco,2018,11,Pre,Domestic;,Reject;,No;,Domestic;,No;,No;,No;
+Luruaco,2018,9,Pre,Domestic;,Reject;,No;,Domestic;,No;,No;,No;
+Luruaco,2018,12,Pre,Domestic;,Accept;,Yes;,Domestic;,Yes;,No;,No;
+Luruaco,2018,9,Pre,Domestic;,Reject;,No;,Domestic;,No;,Yes;,Yes;
+Luruaco,2018,10,Pre,Domestic;,Reject;,No;,Domestic;,No;,No;,No;
+Luruaco,2018,9,Pre,Domestic;,Accept;,,Domestic;,No;,No;,No;
+Luruaco,2018,12,Pre,Wild;,Accept;,No;,Domestic;,No;,No;,Yes;
+Luruaco,2018,9,Pre,Domestic;,Reject;,No;,Domestic;,No;,No;,No;
+Luruaco,2018,10,Pre,Wild;,Reject;,Yes;,Domestic;,No;,No;,No;
+Luruaco,2018,10,Pre,Domestic;,Reject;,No;,Domestic;,No;,No;,No;
+Luruaco,2018,10,Pre,Domestic;,Reject;,Yes;,Domestic;,No;,No;,Yes;
+Santa Catalina,2017,10,Pre,Domestic;,Accept;,No;,Domestic;Wild;,No;,No;,No;
+Santa Catalina,2017,10,Pre,Domestic;,Accept;,Yes;,Domestic;,No;,No;,No;
+Santa Catalina,2017,11,Pre,Domestic;,Accept;,Yes;,Domestic;Wild;,No;,No;,Yes;
+Santa Catalina,2017,9,Pre,Domestic;,Reject;,Yes;,Domestic;,No;,No;,No;
+Santa Catalina,2017,10,Pre,Domestic;,Reject;,No;,Domestic;,No;,No;,No;
+Santa Catalina,2017,11,Pre,Domestic;,Accept;,Yes;,Domestic;,No;,No;,Yes;
+Santa Catalina,2017,11,Pre,Domestic;,Accept;,No;,Domestic;Wild;,No;,No;,No;
+Santa Catalina,2017,9,Pre,Domestic;,Accept;,Yes;,Domestic;,No;,No;,No;
+Santa Catalina,2017,9,Pre,Domestic;,Accept;,Yes;,Domestic;,No;,No;,No;
+Santa Catalina,2017,11,Pre,Domestic;,Reject;,No;,Domestic;,No;,No;,Yes;
+Santa Catalina,2017,13,Pre,Domestic;,Reject;,No;,Domestic;,No;,No;,Yes;
+San Juan,2018,10,Pre,Domestic;,Reject;,No;,Domestic;Wild;,Yes;,Yes;,Yes;
+San Juan,2018,10,Pre,Domestic;Wild;,Accept;,Yes;,Domestic;Wild;,Yes;,No;,No;
+San Juan,2018,11,Pre,,,,,,,
+San Juan,2018,10,Pre,Domestic;Wild;,Reject;,Yes;,Domestic;,No;,Yes;,Yes;
+San Juan,2018,10,Pre,Wild;,Accept;,Yes;,Domestic;Wild;,Not specified;,Yes;,Yes;
+San Juan,2018,10,Pre,Domestic;,Reject;,No;,Domestic;,No;,Not specified;,Yes;
+San Juan,2018,10,Pre,Domestic;,Reject;,Yes;,Domestic;,No;,Unknown;,Unknown;
+San Juan,2018,9,Pre,Domestic;,Reject;,Yes;,Domestic;Wild;,No;,Yes;,Yes;
+San Juan,2018,9,Pre,,,,,,,
+San Juan,2018,10,Pre,,,,,,,
+San Juan,2018,9,Pre,Domestic;,Reject;,Yes;,Domestic;,No;,Yes;,Yes;
+San Juan,2018,10,Pre,Domestic;Wild;,Reject;,Yes;,Domestic;Wild;,No;,No;,No;
