@@ -1,0 +1,92 @@
+---
+title: "DSC 630-Week 3"
+author: "Vivian Hernandez"
+date: "12/15/2019"
+output:
+  word_document: default
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+dodgers<- read.csv("~/Downloads/dodgers.csv")
+```
+
+## Assignemt 3.3
+For this week’s assignment we're going to use Dodgers Major League Baseball data from 2012. The data file you will be using is contained in the dodgers.csv file. I would like you to determine what night would be the best to run a marketing promotion to increase attendance. You will want to use TRAIN. As a reminder, the training set is the data we fit our model on. Use a combination of R and Python to accomplish this assignment. From this data, at a minimum, you should be able to demonstrate the following:
+
+Box plots
+
+Scatter plots
+
+Regression Model
+
+```{r cars}
+summary(dodgers)
+library(ggplot2)
+```
+
+
+```{r}
+str(dodgers)
+```
+
+```{r}
+nights <- dodgers[dodgers$day_night == "Night",]
+str(nights)
+```
+## Boxplots
+
+```{r}
+#looks at all data for attendance during days of the week
+all_box <- ggplot(dodgers, aes(x=day_of_week, y=attend)) + 
+  geom_boxplot()
+all_box
+#attendence in relation to days of the week with day datapoints omited
+night_box <- ggplot(nights, aes(x=day_of_week, y=attend)) + 
+  geom_boxplot()
+night_box
+month_box <- ggplot(nights, aes(x=month, y=attend)) + 
+  geom_boxplot()
+month_box
+
+# October has the lowest attencance, Monday as the lowest median attenance
+```
+## Scatter plot
+
+
+```{r}
+temp_plot <-ggplot(dodgers, aes(x=temp, y= attend)) + geom_point(aes(color=day_of_week)) + ggtitle("Attendence vs Temperature")
+temp_plot
+```
+
+#It looks like there is a posstive trend with temperature and attendence. Factoring by days of the week didn't seem effective. The marketing team should really focus on the cooler months
+
+```{r}
+library(caTools)
+split <- sample.split(nights, SplitRatio = 0.8)
+#get training and test data
+train <- subset(nights, split == "TRUE")
+test <- subset(nights, split == "FALSE")
+
+temp_model <- lm(attend ~ temp ,data = train)
+summary(temp_model)
+
+month_model <- lm(attend ~ temp  , data = train)
+summary(month_model)
+
+day_model <-  lm(attend ~ day_of_week  , data = train)
+summary(day_model)
+
+all_model <-lm(attend ~ temp + month + day_of_week , data = train)
+summary(all_model)
+
+```
+##Summary from assignment
+
+# The attendance model with temperatue, month and day of the week was a better fit for the dataset than just the attendance models for each indivdual variables. This means that all Tuesdays or Mondays in the season are not the same. Attendance is influenced as the season progresses. 
+
+#My recomendation for promotional marketing would be for a Monday in October.
+
+
