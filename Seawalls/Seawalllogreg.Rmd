@@ -1,0 +1,28 @@
+---
+title: "Seawall"
+author: "Vivian Hernandez"
+date: "7/19/2020"
+output:
+  word_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+
+seawall<- read.csv("~/Documents/DSC680/Projects/seawalls/seawalldata2.csv")
+```
+```{r}
+ summary(seawall)
+
+```
+
+```{r}
+# Logistics Regression
+glm.fit <- glm(Crawl.Fate ~ Year + Label + Speices  , data = seawall, family = binomial)
+```
+```{r}
+summary(glm.fit)
+```
+
